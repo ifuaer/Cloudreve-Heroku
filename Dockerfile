@@ -1,4 +1,4 @@
-FROM debian:stable-slim
+FROM redis:alpine
 
 ADD mycloudreve.ini /root/cloudreve/mycloudreve.ini
 ADD cloudreve.db /root/cloudreve/cloudreve.db
